@@ -128,7 +128,7 @@ please let me know and I will do my best to correct it.
 
 
 ## License
-### [The MIT License](LICENSE.txt)
+### [The MIT License](LICENSE)
 
 Copyright (c) 2020, Porimol Chandro <porimolchandroroy@gmail.com>
 
