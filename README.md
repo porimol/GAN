@@ -113,9 +113,7 @@ If like to contribute in a good way, then follow the following guidelines.
 
 ## Disclaimer
 
-This is being maintained in the contributor's free time, and as such, may contain minor errors in regards to some countries.
-Most of the information included in this library is what is listed on Wikipedia. If there is an error, 
-please let me know and I will do my best to correct it.
+This repository is not ready as production grade and it is being implemented in the contributor's free time, and as such, may contain minor errors in regards to some portion of the code.
 
 ### Inspired By
 > PyTorch DCGAN Tutorial
