@@ -17,6 +17,9 @@ Implemented DCGAN which is a direct extension of the GAN.
 ## Getting Started
 These instructions will get you a copy of the project up and running on your development machine for contributing to development, testing purposes.
 
+### Network Architecture of DCGAN
+![Architecture of DCGAN](dcgan_generator.png)
+
 #### Python Version
 > Minimum python version should have 3.x.x or upper
 
