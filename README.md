@@ -61,7 +61,6 @@ $ source .venv/bin/activate
 Installing the requirements using the following commands
 ```python
 $ pip install -r requirements.txt
-$ python setup.py install .
 ```
 
 ## How to run this project
@@ -120,8 +119,8 @@ This repository is not ready as production grade and it is being implemented in 
 
 
 ## References
- [1] Mirza, M. and Osindero, S., 2014. Conditional generative adversarial nets. arXiv preprint arXiv:1411.1784.\
- [2] Radford, A., Metz, L. and Chintala, S., 2015. Unsupervised representation learning with deep convolutional generative adversarial networks. arXiv preprint arXiv:1511.06434.
+ [1] Radford, A., Metz, L. and Chintala, S., 2015. Unsupervised representation learning with deep convolutional generative adversarial networks. arXiv preprint arXiv:1511.06434.\
+ [2] Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A. and Bengio, Y., 2014. Generative adversarial nets. In Advances in neural information processing systems (pp. 2672-2680).
 
 
 
