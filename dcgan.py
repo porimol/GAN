@@ -159,14 +159,15 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--batch_size', required=True, default=128)
-    parser.add_argument('--color', required=True, default='gray', help='gray | rgb')
+    parser.add_argument('--image_size', default=64)
+    parser.add_argument('--batch_size', default=128)
+    parser.add_argument('--color', default='gray', help='gray | rgb')
     arg = parser.parse_args()
 
     if arg.color == 'rgb':
         transform = transforms.Compose([
-            transforms.Resize(image_size),
-            transforms.CenterCrop(image_size),
+            transforms.Resize(arg.image_size),
+            transforms.CenterCrop(arg.image_size),
             transforms.ToTensor(),
             transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),
         ])
@@ -174,7 +175,7 @@ if __name__ == "__main__":
 
     elif arg.color == 'gray':
         transform = transforms.Compose([
-            transforms.Resize(image_size),
+            transforms.Resize(arg.image_size),
             transforms.ToTensor(),
             transforms.Normalize((0.5,), (0.5,)),
         ])
